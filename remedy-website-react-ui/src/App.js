@@ -8,6 +8,7 @@ import SignUp from './components/signup.component';
 import HomePage from './components/homepage.component';
 
 
+
 function App() {
   return (
     <Router>
@@ -49,6 +50,7 @@ function App() {
           </Routes>
         </div>
       </div>
+
     </div> 
   </Router>
     
