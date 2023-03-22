@@ -34,7 +34,6 @@ export default class Login extends Component {
                     <GoogleLoginComponent />
                 </div>
 
-                <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in with Facebook</button>
             </form>
         );
     }

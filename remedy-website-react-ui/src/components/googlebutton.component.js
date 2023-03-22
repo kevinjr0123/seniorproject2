@@ -17,7 +17,7 @@ class GoogleLoginComponent extends Component {
 
     //Success Handler
     responseGoogleSuccess = (response) => {
-        console.log();
+        console.log(response);
         let userInfo = {
             name: response.profileObj.name,
             emailId: response.profileObj.email,

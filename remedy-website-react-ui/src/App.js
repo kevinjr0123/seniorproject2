@@ -15,18 +15,18 @@ function App() {
       <div className="App">
         <nav className= "navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
-            <Link className="navbar-brand" to={'/sign-in'}>
+            <Link className="navbar-brand" to={'/log-in'}>
               Remedy
             </Link>
             <div className="collaspe navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-in'}>
+                  <Link className="nav-link" to={'/log-in'}>
                     Log in
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-up'}>
+                  <Link className="nav-link" to={'/register'}>
                     Register
                   </Link>
                 </li>
@@ -44,8 +44,8 @@ function App() {
         <div className='inner'>
           <Routes>
             <Route exact path='/' element={<Login />} />
-            <Route path='/sign-in' element={<Login />} />
-            <Route path='/sign-up' element={<SignUp />} />
+            <Route path='/log-in' element={<Login />} />
+            <Route path='/register' element={<SignUp />} />
             <Route path='/home-page' element={<HomePage />} />
           </Routes>
         </div>
